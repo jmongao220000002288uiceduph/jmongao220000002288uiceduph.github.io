@@ -1,2 +1,23 @@
 # jmongao220000002288uiceduph.github.io
-School 
+|- index.html
++ assets/
++ images/
+|- profile.jpg
+|- favicon.ico
++ css/
+|- style.css
++ js/
+|- script.js
++ pages/
++ about/
+|- index.html
+|- style.css
++ webdev_html/
+|- index.html
+|- style.css
++ webdev_css/
+|- index.html
+|- style.css
++ webdev_app/
+|- index.html
+|- style.css
