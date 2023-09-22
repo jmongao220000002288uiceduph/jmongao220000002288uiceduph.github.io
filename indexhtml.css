@@ -1,0 +1,51 @@
+ /* Reset default margin and padding */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Set a background image */
+        body {
+            background-image: url('Img/Purple.jpg'); /* Replace 'your-background-image.jpg' with the path to your image */
+            background-size: cover; /* Cover the entire viewport with the image */
+            background-repeat: no-repeat; /* Prevent image repetition */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header styling */
+        .content {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7); /* Dark background color with transparency */
+            color: #fff; /* White text color */
+            padding: 20px;
+        }
+
+        /* Centered grid layout */
+        .Link {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+            gap: 20px; /* Adjust the spacing between grid items */
+            text-align: center;
+            margin: 20px; /* Add some margin around the grid */
+        }
+
+        /* Style for links */
+        .Link a {
+            text-decoration: none;
+            color: #ffffff; /* Text color for links */
+            background-color: purple; /* Background color for links */
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease; /* Smooth hover effect */
+        }
+
+        .Link a:hover {
+            background-color: #e43030; /* Background color on hover */
+            color: #ffffff; /* Text color on hover */
+        }
+
+        /* Style for images */
+        .Link img {
+            width: 100%; /* Make images responsive within their container */
+            height: auto;
+        }
