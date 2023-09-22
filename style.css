@@ -1,3 +1,5 @@
-*{
-      
+body {
+    background-image: url('Img/BGIM.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
 }
